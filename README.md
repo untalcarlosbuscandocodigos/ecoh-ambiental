@@ -4,8 +4,6 @@ Aplicación web para aprender a separar residuos y cuidar el ambiente en Bolivia
 
 **Estado: versión 0.1 para revisión. No está publicada como servicio al público.** Incluye interfaz, servidor, almacenamiento persistente, pruebas y recursos originales. El correo real y el alojamiento deben configurarse antes del lanzamiento.
 
-**Transferencia a GitHub pendiente de completar:** faltan `public/assets/original/logo_usfx.png` y `public/assets/original/rights_derechos_prgunta63.png`. Ambos están en la copia local completa. La carga automática encontró un límite de tamaño de revisión; es necesario adjuntarlos desde GitHub. Hasta entonces, la comprobación de integridad de recursos del repositorio no pasará y esas dos imágenes no se mostrarán.
-
 ## Incluye
 
 - Entrada de menores sin cuenta ni perfil personal. Conteo agregado de sesiones por día y país, no menores únicos.
