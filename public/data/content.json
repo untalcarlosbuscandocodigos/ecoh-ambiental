@@ -1,0 +1,1026 @@
+{
+  "version": 1,
+  "name": "ECOH Ambiental",
+  "countries": [
+    {
+      "code": "BO",
+      "name": "Bolivia"
+    },
+    {
+      "code": "GU",
+      "name": "Guatemala"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "gu-yellow",
+      "sourceId": "1",
+      "country": "GU",
+      "color": "yellow",
+      "colorHex": "#f2c445",
+      "title": "Papel y cartón",
+      "description": "Reconoce objetos de papel y cartón con los ejemplos del proyecto ECOH.",
+      "examples": [
+        "Periódicos",
+        "Cuadernos",
+        "Libretas",
+        "Libros",
+        "Hojas de papel",
+        "Cartón de huevos",
+        "Cajas en general"
+      ],
+      "illustration": "/assets/original/game_img_garbage_yellow.png",
+      "objects": [
+        {
+          "id": "gu_yellow_obj1",
+          "image": "/assets/original/gu_yellow_obj1.png",
+          "label": "Periódico"
+        },
+        {
+          "id": "gu_yellow_obj2",
+          "image": "/assets/original/gu_yellow_obj2.png",
+          "label": "Caja de cartón"
+        },
+        {
+          "id": "gu_yellow_obj3",
+          "image": "/assets/original/gu_yellow_obj3.png",
+          "label": "Papel arrugado"
+        },
+        {
+          "id": "gu_yellow_obj4",
+          "image": "/assets/original/gu_yellow_obj4.png",
+          "label": "Revista"
+        },
+        {
+          "id": "gu_yellow_obj5",
+          "image": "/assets/original/gu_yellow_obj5.png",
+          "label": "Cuaderno"
+        },
+        {
+          "id": "gu_yellow_obj6",
+          "image": "/assets/original/gu_yellow_obj6.png",
+          "label": "Cartón de huevos"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "gu-blue",
+      "sourceId": "2",
+      "country": "GU",
+      "color": "blue",
+      "colorHex": "#2463b5",
+      "title": "Plásticos",
+      "description": "Identifica envases y objetos de plástico. La aceptación de cada material depende del punto de recolección.",
+      "examples": [
+        "Botellas plásticas de refrescos",
+        "Detergentes",
+        "Shampoo",
+        "Desinfectantes",
+        "Cubetas",
+        "Platos plásticos",
+        "Botes de aceite de cocina",
+        "Botes de aceite de motor",
+        "CD´s",
+        "Pachas",
+        "Duropord"
+      ],
+      "illustration": "/assets/original/game_img_garbage_blue.png",
+      "objects": [
+        {
+          "id": "gu_blue_obj1",
+          "image": "/assets/original/gu_blue_obj1.png",
+          "label": "Bolsa de plástico"
+        },
+        {
+          "id": "gu_blue_obj2",
+          "image": "/assets/original/gu_blue_obj2.png",
+          "label": "Botella de plástico"
+        },
+        {
+          "id": "gu_blue_obj3",
+          "image": "/assets/original/gu_blue_obj3.png",
+          "label": "Envase de plástico"
+        },
+        {
+          "id": "gu_blue_obj4",
+          "image": "/assets/original/gu_blue_obj4.png",
+          "label": "Pulverizador de plástico"
+        },
+        {
+          "id": "gu_blue_obj5",
+          "image": "/assets/original/gu_blue_obj5.png",
+          "label": "Cubeta de plástico"
+        },
+        {
+          "id": "gu_blue_obj6",
+          "image": "/assets/original/gu_blue_obj6.png",
+          "label": "Botella de producto de limpieza"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "gu-red",
+      "sourceId": "3",
+      "country": "GU",
+      "color": "red",
+      "colorHex": "#d74141",
+      "title": "Eléctricos y peligrosos",
+      "description": "Reconoce aparatos eléctricos y baterías. Consulta un punto autorizado para su entrega y evita manipular materiales dañados.",
+      "examples": [
+        "Baterías de uso doméstico",
+        "Baterías de uso carro",
+        "Aparatos electrodomésticos",
+        "Computadoras",
+        "Celulares",
+        "Radios",
+        "Televisores",
+        "Lámparas"
+      ],
+      "illustration": "/assets/original/game_img_garbage_red.png",
+      "objects": [
+        {
+          "id": "gu_red_obj1",
+          "image": "/assets/original/gu_red_obj1.png",
+          "label": "Televisor"
+        },
+        {
+          "id": "gu_red_obj2",
+          "image": "/assets/original/gu_red_obj2.png",
+          "label": "Batería de automóvil"
+        },
+        {
+          "id": "gu_red_obj3",
+          "image": "/assets/original/gu_red_obj3.png",
+          "label": "Pila"
+        },
+        {
+          "id": "gu_red_obj4",
+          "image": "/assets/original/gu_red_obj4.png",
+          "label": "Computadora portátil"
+        },
+        {
+          "id": "gu_red_obj5",
+          "image": "/assets/original/gu_red_obj5.png",
+          "label": "Batería"
+        },
+        {
+          "id": "gu_red_obj6",
+          "image": "/assets/original/gu_red_obj6.png",
+          "label": "Teléfono móvil"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "gu-celeste",
+      "sourceId": "4",
+      "country": "GU",
+      "color": "celeste",
+      "colorHex": "#64b8d6",
+      "title": "Vidrio",
+      "description": "Reconoce botellas y frascos de vidrio. Consulta las indicaciones del punto de recolección antes de entregar vidrio roto.",
+      "examples": [
+        "Botellas de vidrio de vino",
+        "Botellas de refrescos",
+        "Botellas bebidas alcohólicas",
+        "Botellas de vegetales",
+        "Botellas de frutas",
+        "Frascos de vidrio"
+      ],
+      "illustration": "/assets/original/game_img_garbage_celeste.png",
+      "objects": [
+        {
+          "id": "gu_celeste_obj1",
+          "image": "/assets/original/gu_celeste_obj1.png",
+          "label": "Botella de vidrio de vino"
+        },
+        {
+          "id": "gu_celeste_obj2",
+          "image": "/assets/original/gu_celeste_obj2.png",
+          "label": "Botella de vidrio transparente"
+        },
+        {
+          "id": "gu_celeste_obj3",
+          "image": "/assets/original/gu_celeste_obj3.png",
+          "label": "Botella de vidrio verde"
+        },
+        {
+          "id": "gu_celeste_obj4",
+          "image": "/assets/original/gu_celeste_obj4.png",
+          "label": "Botella de refresco de vidrio"
+        },
+        {
+          "id": "gu_celeste_obj5",
+          "image": "/assets/original/gu_celeste_obj5.png",
+          "label": "Botella de vidrio"
+        },
+        {
+          "id": "gu_celeste_obj6",
+          "image": "/assets/original/gu_celeste_obj6.png",
+          "label": "Frasco de vidrio"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "gu-orange",
+      "sourceId": "5",
+      "country": "GU",
+      "color": "orange",
+      "colorHex": "#ed8a36",
+      "title": "Envases multicapa",
+      "description": "Reconoce envases multicapa, como los cartones de bebidas. Confirma si tu punto de recolección los recibe.",
+      "examples": [
+        "Envases multicapa de jugo",
+        "Envases multicapa de leche",
+        "Cartones de bebidas"
+      ],
+      "illustration": "/assets/original/game_img_garbage_orange.png",
+      "objects": [
+        {
+          "id": "gu_orange_obj1",
+          "image": "/assets/original/gu_orange_obj1.png",
+          "label": "Envase multicapa de bebida"
+        },
+        {
+          "id": "gu_orange_obj2",
+          "image": "/assets/original/gu_orange_obj2.png",
+          "label": "Envase multicapa de yogur"
+        },
+        {
+          "id": "gu_orange_obj3",
+          "image": "/assets/original/gu_orange_obj3.png",
+          "label": "Envase multicapa de jugo"
+        },
+        {
+          "id": "gu_orange_obj4",
+          "image": "/assets/original/gu_orange_obj4.png",
+          "label": "Envase multicapa de alimento"
+        },
+        {
+          "id": "gu_orange_obj5",
+          "image": "/assets/original/gu_orange_obj5.png",
+          "label": "Envase multicapa de jugo de naranja"
+        },
+        {
+          "id": "gu_orange_obj6",
+          "image": "/assets/original/gu_orange_obj6.png",
+          "label": "Envase multicapa de leche"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "gu-black",
+      "sourceId": "6",
+      "country": "GU",
+      "color": "black",
+      "colorHex": "#343a40",
+      "title": "Metales",
+      "description": "Identifica envases y objetos metálicos. Sigue las indicaciones del punto de recolección, especialmente para envases presurizados.",
+      "examples": [
+        "Envase de Cerveza",
+        "Envase de Gaseosa",
+        "Envase de Alimento",
+        "Envase de desodorante",
+        "Vasos metalicos",
+        "Envases de Sardina",
+        "Latas"
+      ],
+      "illustration": "/assets/original/game_img_garbage_black.png",
+      "objects": [
+        {
+          "id": "gu_black_obj1",
+          "image": "/assets/original/gu_black_obj1.png",
+          "label": "Lata de bebida"
+        },
+        {
+          "id": "gu_black_obj2",
+          "image": "/assets/original/gu_black_obj2.png",
+          "label": "Lata aplastada"
+        },
+        {
+          "id": "gu_black_obj3",
+          "image": "/assets/original/gu_black_obj3.png",
+          "label": "Envase de aerosol"
+        },
+        {
+          "id": "gu_black_obj4",
+          "image": "/assets/original/gu_black_obj4.png",
+          "label": "Lata de conserva abierta"
+        },
+        {
+          "id": "gu_black_obj5",
+          "image": "/assets/original/gu_black_obj5.png",
+          "label": "Vaso metálico"
+        },
+        {
+          "id": "gu_black_obj6",
+          "image": "/assets/original/gu_black_obj6.png",
+          "label": "Lata de conserva"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "bo-black",
+      "sourceId": "7",
+      "country": "BO",
+      "color": "black",
+      "colorHex": "#343a40",
+      "title": "Eléctricos y electrónicos",
+      "description": "En este módulo reconocerás objetos eléctricos y electrónicos. Antes de desecharlos, consulta qué puntos de tu municipio los reciben.",
+      "examples": [
+        "Teclado de computadoras",
+        "Cables",
+        "Mouse",
+        "Pantallas",
+        "Celulares",
+        "Baterías",
+        "Computadoras"
+      ],
+      "illustration": "/assets/original/game_img_garbage_black.png",
+      "objects": [
+        {
+          "id": "bo_black_obj1",
+          "image": "/assets/original/bo_black_obj1.png",
+          "label": "Teléfono móvil"
+        },
+        {
+          "id": "bo_black_obj2",
+          "image": "/assets/original/bo_black_obj2.png",
+          "label": "Batería de automóvil"
+        },
+        {
+          "id": "bo_black_obj3",
+          "image": "/assets/original/bo_black_obj3.png",
+          "label": "Televisor"
+        },
+        {
+          "id": "bo_black_obj4",
+          "image": "/assets/original/bo_black_obj4.png",
+          "label": "Plancha eléctrica"
+        },
+        {
+          "id": "bo_black_obj5",
+          "image": "/assets/original/bo_black_obj5.png",
+          "label": "Bombilla"
+        },
+        {
+          "id": "bo_black_obj6",
+          "image": "/assets/original/bo_black_obj6.png",
+          "label": "Computadora portátil"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "bo-yellow",
+      "sourceId": "8",
+      "country": "BO",
+      "color": "yellow",
+      "colorHex": "#f2c445",
+      "title": "Plásticos",
+      "description": "Aprende a identificar envases y objetos de plástico. Comprueba qué materiales acepta el punto de recolección de tu localidad.",
+      "examples": [
+        "Botellas de agua",
+        "Botellas de refrescos",
+        "Botellas de jugo",
+        "Envase de plástico",
+        "Envases desechables",
+        "Vaso de plástico"
+      ],
+      "illustration": "/assets/original/game_img_garbage_yellow.png",
+      "objects": [
+        {
+          "id": "bo_yellow_obj1",
+          "image": "/assets/original/bo_yellow_obj1.png",
+          "label": "Bolsa de plástico"
+        },
+        {
+          "id": "bo_yellow_obj2",
+          "image": "/assets/original/bo_yellow_obj2.png",
+          "label": "Botella de plástico aplastada"
+        },
+        {
+          "id": "bo_yellow_obj3",
+          "image": "/assets/original/bo_yellow_obj3.png",
+          "label": "Cuchara de plástico"
+        },
+        {
+          "id": "bo_yellow_obj4",
+          "image": "/assets/original/bo_yellow_obj4.png",
+          "label": "Vaso de plástico"
+        },
+        {
+          "id": "bo_yellow_obj5",
+          "image": "/assets/original/bo_yellow_obj5.png",
+          "label": "Envase de plástico"
+        },
+        {
+          "id": "bo_yellow_obj6",
+          "image": "/assets/original/bo_yellow_obj6.png",
+          "label": "Botella de plástico"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "bo-green",
+      "sourceId": "9",
+      "country": "BO",
+      "color": "green",
+      "colorHex": "#468b52",
+      "title": "Orgánicos",
+      "description": "Reconoce residuos de alimentos y vegetales. Separar residuos orgánicos no significa que todos sean adecuados para compostaje doméstico.",
+      "examples": [
+        "Cáscara de frutas",
+        "Verduras",
+        "Restos de árboles",
+        "Restos de cereales",
+        "Cáscara de huevo",
+        "Restos de comida"
+      ],
+      "illustration": "/assets/original/game_img_garbage_green.png",
+      "objects": [
+        {
+          "id": "bo_green_obj1",
+          "image": "/assets/original/bo_green_obj1.png",
+          "label": "Resto de pollo"
+        },
+        {
+          "id": "bo_green_obj2",
+          "image": "/assets/original/bo_green_obj2.png",
+          "label": "Cáscara de plátano"
+        },
+        {
+          "id": "bo_green_obj3",
+          "image": "/assets/original/bo_green_obj3.png",
+          "label": "Espinas de pescado"
+        },
+        {
+          "id": "bo_green_obj4",
+          "image": "/assets/original/bo_green_obj4.png",
+          "label": "Cáscara de sandía"
+        },
+        {
+          "id": "bo_green_obj5",
+          "image": "/assets/original/bo_green_obj5.png",
+          "label": "Resto de manzana"
+        },
+        {
+          "id": "bo_green_obj6",
+          "image": "/assets/original/bo_green_obj6.png",
+          "label": "Zanahoria"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "bo-silver",
+      "sourceId": "10",
+      "country": "BO",
+      "color": "silver",
+      "colorHex": "#a0a7ae",
+      "title": "Vidrio",
+      "description": "Identifica botellas y frascos de vidrio. Consulta las indicaciones del punto de recolección antes de entregar vidrio roto.",
+      "examples": [
+        "Botellas de vidrio",
+        "Botellas de mermeladas",
+        "Botellas de alimento",
+        "Botellas de cerveza",
+        "Botellas de bebidas",
+        "Frascos de vidrio"
+      ],
+      "illustration": "/assets/original/game_img_garbage_silver.png",
+      "objects": [
+        {
+          "id": "bo_silver_obj1",
+          "image": "/assets/original/bo_silver_obj1.png",
+          "label": "Frasco de vidrio"
+        },
+        {
+          "id": "bo_silver_obj2",
+          "image": "/assets/original/bo_silver_obj2.png",
+          "label": "Botella de vidrio transparente"
+        },
+        {
+          "id": "bo_silver_obj3",
+          "image": "/assets/original/bo_silver_obj3.png",
+          "label": "Botella de vidrio verde"
+        },
+        {
+          "id": "bo_silver_obj4",
+          "image": "/assets/original/bo_silver_obj4.png",
+          "label": "Botella de vidrio"
+        },
+        {
+          "id": "bo_silver_obj5",
+          "image": "/assets/original/bo_silver_obj5.png",
+          "label": "Botella rota"
+        },
+        {
+          "id": "bo_silver_obj6",
+          "image": "/assets/original/bo_silver_obj6.png",
+          "label": "Fragmento de vidrio"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "bo-red",
+      "sourceId": "11",
+      "country": "BO",
+      "color": "red",
+      "colorHex": "#d74141",
+      "title": "Residuos sanitarios y peligrosos",
+      "description": "Identifica residuos sanitarios y materiales que necesitan atención especial. No manipules objetos cortantes ni residuos desconocidos; pide ayuda a una persona adulta.",
+      "examples": [
+        "Barbijos",
+        "Pañales",
+        "Guantes",
+        "Toallas higiénicas",
+        "Jeringas",
+        "Residuos con restos biológicos",
+        "Pilas"
+      ],
+      "illustration": "/assets/original/game_img_garbage_red.png",
+      "objects": [
+        {
+          "id": "bo_red_obj1",
+          "image": "/assets/original/bo_red_obj1.png",
+          "label": "Jeringa"
+        },
+        {
+          "id": "bo_red_obj2",
+          "image": "/assets/original/bo_red_obj2.png",
+          "label": "Guante"
+        },
+        {
+          "id": "bo_red_obj3",
+          "image": "/assets/original/bo_red_obj3.png",
+          "label": "Gasa usada"
+        },
+        {
+          "id": "bo_red_obj4",
+          "image": "/assets/original/bo_red_obj4.png",
+          "label": "Barbijo"
+        },
+        {
+          "id": "bo_red_obj5",
+          "image": "/assets/original/bo_red_obj5.png",
+          "label": "Termómetro"
+        },
+        {
+          "id": "bo_red_obj6",
+          "image": "/assets/original/bo_red_obj6.png",
+          "label": "Pañal"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    },
+    {
+      "id": "bo-blue",
+      "sourceId": "12",
+      "country": "BO",
+      "color": "blue",
+      "colorHex": "#2463b5",
+      "title": "Papel y cartón",
+      "description": "Distingue papel y cartón de otros materiales. Consulta las condiciones de entrega del punto de recolección de tu localidad.",
+      "examples": [
+        "Papel periódico",
+        "Papel bon",
+        "Cartón",
+        "Envases de cartón",
+        "Papel para envolver",
+        "Cartulinas"
+      ],
+      "illustration": "/assets/original/game_img_garbage_blue.png",
+      "objects": [
+        {
+          "id": "bo_blue_obj1",
+          "image": "/assets/original/bo_blue_obj1.png",
+          "label": "Periódico"
+        },
+        {
+          "id": "bo_blue_obj2",
+          "image": "/assets/original/bo_blue_obj2.png",
+          "label": "Papel arrugado"
+        },
+        {
+          "id": "bo_blue_obj3",
+          "image": "/assets/original/bo_blue_obj3.png",
+          "label": "Caja de cartón"
+        },
+        {
+          "id": "bo_blue_obj4",
+          "image": "/assets/original/bo_blue_obj4.png",
+          "label": "Cartón de huevos"
+        },
+        {
+          "id": "bo_blue_obj5",
+          "image": "/assets/original/bo_blue_obj5.png",
+          "label": "Revista"
+        },
+        {
+          "id": "bo_blue_obj6",
+          "image": "/assets/original/bo_blue_obj6.png",
+          "label": "Cuaderno"
+        }
+      ],
+      "source": {
+        "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+      }
+    }
+  ],
+  "rights": {
+    "title": "DERECHOS Y DEBERES PARA EL CUIDADO DEL MEDIO AMBIENTE",
+    "intro": "Todos tenemos derechos y deberes para el cuidado de nuestro medio ambiente.\nEstos pueden ser un poco diferentes en cada país pero en general, buscan garantizar su integridad!",
+    "definitions": [
+      {
+        "title": "Pero ¿Qué son los derechos?",
+        "text": "Los derechos son garantías que las constituciones de todos los países aseguran a sus habitantes por el hecho de ser personas y vivir en sociedad"
+      },
+      {
+        "title": "Y, ¿Qué son los deberes?",
+        "text": "Los deberes son las responsabilidades que debemos asumir todas las personas como retribución a los derechos. Su cumplimiento es imprescindible para lograr y proteger el bien común y posibilitar así una convivencia social justa y armónica."
+      }
+    ],
+    "questions": [
+      {
+        "id": "derecho_pregunta1",
+        "prompt": "¿Cómo crees que debería ser el medio ambiente donde, estudias, trabajas o vives?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pequeño, lleno de humo de automóviles y ruidoso",
+            "image": "/assets/original/rights_derechos_prgunta11.jpg"
+          },
+          {
+            "id": "b",
+            "text": "Saludable, limpio y equilibrado",
+            "image": "/assets/original/rights_derechos_prgunta12.jpg"
+          },
+          {
+            "id": "c",
+            "text": "Sin animales ni vegetación para que existan más lugares para los automóviles.",
+            "image": "/assets/original/rights_derechos_prgunta13.jpg"
+          }
+        ],
+        "correct": [
+          "b"
+        ],
+        "multiple": false,
+        "feedback": "Todos tenemos derecho de gozar de un medio ambiente saludable, protegido y equilibrado, libre de contaminación o riesgos de deterioro derivados de la gestión inadecuada de residuos.",
+        "source": {
+          "path": "app/src/main/java/com/usfx/ecoh/ui/rights/Rights21Activity.java"
+        }
+      },
+      {
+        "id": "derecho_pregunta2",
+        "prompt": "¿Dónde puedes aprender o capacitarte sobre el manejo de residuos sólidos?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hogar y escuela",
+            "image": "/assets/original/rights_derechos_prgunta21.jpg"
+          },
+          {
+            "id": "b",
+            "text": "Ferias educativas",
+            "image": "/assets/original/rights_derechos_prgunta22.jpg"
+          },
+          {
+            "id": "c",
+            "text": "Calle o parques",
+            "image": "/assets/original/rights_derechos_prgunta23.jpg"
+          }
+        ],
+        "correct": [
+          "a",
+          "b",
+          "c"
+        ],
+        "multiple": true,
+        "feedback": "Podemos aprovechar cualquier espacio disponible ya que todos tenemos derecho a recibir educación y capacitación para el manejo de residuos sólidos pues ¡todos jugamos un papel en este proceso!",
+        "source": {
+          "path": "app/src/main/java/com/usfx/ecoh/ui/rights/Rights22Activity.java"
+        }
+      },
+      {
+        "id": "derecho_pregunta3",
+        "prompt": "¿Crees que las autoridades de tu ciudad tienen la obligación de gestionar los residuos sólidos?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sí, tienen la obligación",
+            "image": "/assets/original/rights_derechos_prgunta31.png"
+          },
+          {
+            "id": "b",
+            "text": "No, no tienen esa obligación",
+            "image": "/assets/original/rights_derechos_prgunta32.png"
+          },
+          {
+            "id": "c",
+            "text": "Todas las personas son responsables de sus residuos",
+            "image": "/assets/original/rights_derechos_prgunta33.png"
+          }
+        ],
+        "correct": [
+          "a",
+          "c"
+        ],
+        "multiple": true,
+        "feedback": "Toda persona y autoridades tienen la obligación de manejar sus residuos de una manera adecuada y responsable para cuidar el medio ambiente.",
+        "source": {
+          "path": "app/src/main/java/com/usfx/ecoh/ui/rights/Rights23Activity.java"
+        }
+      },
+      {
+        "id": "deber_pregunta1",
+        "prompt": "¿Cuál de las siguientes opciones tiene mejores resultados para el manejo de residuos sólidos?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Reducir la generación de residuos sólidos",
+            "image": "/assets/original/rights_derechos_prgunta41.png"
+          },
+          {
+            "id": "b",
+            "text": "Hacer manualidades con los residuos aprovechables",
+            "image": "/assets/original/rights_derechos_prgunta42.png"
+          },
+          {
+            "id": "c",
+            "text": "Tener más contendores y personal de limpieza",
+            "image": "/assets/original/rights_derechos_prgunta43.png"
+          }
+        ],
+        "correct": [
+          "a"
+        ],
+        "multiple": false,
+        "feedback": "Las tres opciones nos ayudan a tener un ambiente más limpio, sin embargo, es preferible REDUCIR la generación de residuos sólidos en cantidad y peligrosidad.\n Por ejemplo, podemos llevar una bolsa reutilizable de tela o plástico para hacer las compras y evitar pedir ¡nuevas bolsas!\n Esto nos ayudará a cuidar mejor el planeta en el futuro",
+        "source": {
+          "path": "app/src/main/java/com/usfx/ecoh/ui/rights/Rights24Activity.java"
+        }
+      },
+      {
+        "id": "deber_pregunta2",
+        "prompt": "¿En qué momento es mejor separar los residuos sólidos?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Antes de entregar al camión de basura",
+            "image": "/assets/original/rights_derechos_prgunta51.jpg"
+          },
+          {
+            "id": "b",
+            "text": "En cualquier momento y lugar, de inmediato cuando se genere el residuo",
+            "image": "/assets/original/rights_derechos_prgunta52.jpg"
+          },
+          {
+            "id": "c",
+            "text": "No es necesario",
+            "image": "/assets/original/rights_derechos_prgunta53.jpg"
+          }
+        ],
+        "correct": [
+          "b"
+        ],
+        "multiple": false,
+        "feedback": "Es muy importante separar los residuos y clasificarlos para que se les pueda dar un nuevo uso si es posible.\n Es mucho mejor separarlo en el mismo momento en que se generan.\nPor ejemplo, cuando termines de tomar una gaseosa en botella plástica o de aluminio, deposítala en un contenedor separado para este tipo de residuos.",
+        "source": {
+          "path": "app/src/main/java/com/usfx/ecoh/ui/rights/Rights25Activity.java"
+        }
+      },
+      {
+        "id": "deber_pregunta3",
+        "prompt": "¿Cuáles son los sitios adecuados para depositar los residuos sólidos?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ríos y quebradas",
+            "image": "/assets/original/rights_derechos_prgunta61.jpg"
+          },
+          {
+            "id": "b",
+            "text": "Calles y plazas",
+            "image": "/assets/original/rights_derechos_prgunta62.jpg"
+          },
+          {
+            "id": "c",
+            "text": "Contendores destinados a la recolección de residuos sólidos",
+            "image": "/assets/original/rights_derechos_prgunta63.png"
+          }
+        ],
+        "correct": [
+          "c"
+        ],
+        "multiple": false,
+        "feedback": "Es importante depositar los residuos en sitios autorizados en tu ciudad.\nMuchas ciudades disponen de contenedores autorizados para depositar los residuos. También puede haber contenedores en plazas, calles y parques identificados por colores para botar los residuos separando plásticos, papel, o residuos comunes",
+        "source": {
+          "path": "app/src/main/java/com/usfx/ecoh/ui/rights/Rights26Activity.java"
+        }
+      }
+    ],
+    "closing": "¡Vivir en un medio ambiente saludable es un derecho humano!",
+    "sourceUrl": "https://www.unep.org/es/noticias-y-reportajes/reportajes/decision-historica-la-onu-declara-que-el-medio-ambiente-saludable"
+  },
+  "institutions": [
+    {
+      "id": "ecoh",
+      "name": "PROYECTO ECOH",
+      "description": "El proyecto ECOH, es uno de los proyectos One Heath Network Funds 2021/2022, liderado por la Ing. Apolonia Rodriguez Gonzales. Participan activamente profesionales de la Universidad San Francisco Xavier de Chuquisaca, Universidad San Carlos de Guatemala y el CIH-LMU.",
+      "url": "https://www.cih.lmu.de/activities/projects/ecoh",
+      "logo": "/assets/original/proyecto_ecoh.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "one",
+      "name": "One Health TARGET",
+      "description": "El proyecto One Health Training And Research Global NETwork (OH TARGET), liderado por el Centro para la Salud internacional de la universidad Ludwig Maximilians (CIH-LMU), Alemania, tiene el objetivo primordial de contribuir a la mejora de las condiciones de salud en todo el mundo mediante la comprensión de los problemas de salud estructurales causados por el entorno de vida y el desarrollo de soluciones específicas del contexto en un enfoque holístico y participativo de la cooperación para el desarrollo.",
+      "url": "https://www.cih.lmu.de/one-health-target/about_oh_target",
+      "logo": "/assets/original/logo_oh_baum.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "federal",
+      "name": "Ministerio Federal Alemán de Cooperación Económica y Desarrollo (BMZ)",
+      "description": "Su objetivo es: Integrar, en forma significativa, las medidas destinadas a facilitar la adaptación al cambio climático y reducir las emisiones de gases de efecto invernadero dentro del apoyo que Alemania prevé a los países en desarrollo.",
+      "url": "https://www.bmz.de/en/",
+      "logo": "/assets/original/logo_federal_ministry.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "daad",
+      "name": "Servicio Alemán de Intercambio Académico (DAAD)",
+      "description": "Fundado en Heidelberg en 1925 por iniciativa de un solo estudiante, el DAAD se ha convertido desde entonces en una de las organizaciones de financiación más importantes del mundo para el intercambio internacional de estudiantes e investigadores.",
+      "url": "https://www.daad.de/en/the-daad/",
+      "logo": "/assets/original/logo_daad.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "lmu",
+      "name": "El Centro para la Salud Internacional del University Hospital Munich (LMU)",
+      "description": "El Centro CIH-LMU para la Salud Internacional, es una red interdisciplinaria e internacional de excelencia con sede central ubicada en el hospital de la Universidad Ludwig-Maximilians de Munich en Alemania.",
+      "url": "https://www.cih.lmu.de/",
+      "logo": "/assets/original/logo_lmu_klinikum.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "exceed",
+      "name": "Higher Education Excellence in Development Cooperation (EXCEED)",
+      "description": "El programa \"Exceed - Excelencia en la educación superior en la cooperación para el desarrollo\" tiene como objetivo apoyar a las HEIs alemanas junto con sus socios en los países en desarrollo. Se brinda apoyo a aquellas instituciones que contribuyen a la realización de los Objetivos de Desarrollo del Milenio y otras políticas de desarrollo y cooperación de manera innovadora. El objetivo es fortalecer las HEIs en los campos de la educación, la investigación y la consultoría.",
+      "url": "https://exceed.global/",
+      "logo": "/assets/original/logo_exceed.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "usfx",
+      "name": "USFX",
+      "description": "La Universidad San Francisco Xavier de Chuquisaca, Bolivia, es una de las universidades colaboradoras del CIH-LMU y participantes del proyecto ECOH.",
+      "url": "https://www.usfx.bo",
+      "logo": "/assets/original/logo_usfx.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "ambiental",
+      "name": "Carrera de ingeniería ambiental",
+      "description": "La Carrera de Ingeniería Ambiental de la Universidad San Francisco Xavier de Chuquisaca Bolivia, participante del proyecto ECOH.",
+      "url": "https://www.facebook.com/IngAmbientalUSFX/",
+      "logo": "/assets/original/logo_ing_ambiental.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "sucre",
+      "name": "GAM Sucre",
+      "description": "El Gobierno Autónomo Municipal de Sucre, es una de las instituciones colaboradoras del proyecto ECOH, Bolivia.",
+      "url": "https://sucre.bo",
+      "logo": "/assets/original/logo_alcaldia.jpeg",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "san_marcos",
+      "name": "Universidad San Carlos de Guatemala",
+      "description": "La Universidad San Carlos de Guatemala, es una de las universidades colaboradoras del CIH-LMU y participantes del proyecto ECOH.",
+      "url": "https://www.usac.edu.gt",
+      "logo": "/assets/original/logo_usac2_gu.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "museo",
+      "name": "Museo de Historia Natural de Guatemala",
+      "description": "El Museo de Historia Natural de la Universidad San Carlos de Guatemala, participante del proyecto ECOH.",
+      "url": "https://www.facebook.com/MuseoDeHistoriaNaturalUsacMushnat/",
+      "logo": "/assets/original/logo_mushnatf2_gu.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    },
+    {
+      "id": "jardin",
+      "name": "Jardín Botánico",
+      "description": "El Jardín Botánico de la Universidad San Carlos de Guatemala, participante del proyecto ECOH.",
+      "url": "https://jardinbotanico.usac.edu.gt/",
+      "logo": "/assets/original/logo_100_gu.png",
+      "source": {
+        "path": "app/src/main/res/values/strings.xml"
+      }
+    }
+  ],
+  "playlist": {
+    "id": "PLwsgVCyCrRhmG8nigzNYmT4I58y2zVecO",
+    "url": "https://www.youtube.com/playlist?list=PLwsgVCyCrRhmG8nigzNYmT4I58y2zVecO"
+  },
+  "bins": {
+    "black": "/assets/original/game_img_garbage_black.png",
+    "blue": "/assets/original/game_img_garbage_blue.png",
+    "red": "/assets/original/game_img_garbage_red.png",
+    "silver": "/assets/original/game_img_garbage_silver.png",
+    "yellow": "/assets/original/game_img_garbage_yellow.png",
+    "green": "/assets/original/game_img_garbage_green.png",
+    "orange": "/assets/original/game_img_garbage_orange.png",
+    "celeste": "/assets/original/game_img_garbage_celeste.png"
+  },
+  "sounds": {
+    "correct": "/assets/original/sonido_buena.mp3",
+    "incorrect": "/assets/original/sonido_mala.mp3",
+    "win": "/assets/original/sonido_gano.mp3",
+    "lose": "/assets/original/sonido_perdio.mp3"
+  },
+  "brand": {
+    "icon": "/assets/original/ic_launcher_ecoh.png",
+    "project": "/assets/original/proyecto_ecoh.png",
+    "presentation": "/assets/original/begin_project_ecoh.png"
+  },
+  "sources": [
+    {
+      "path": "app/src/main/java/com/usfx/ecoh/utils/AprendizajeData.java"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml"
+    },
+    {
+      "path": "app/src/main/java/com/usfx/ecoh/ui/about/CommonFragment.java"
+    }
+  ],
+  "editorialNotes": [
+    "La clasificación por colores es la utilizada en el material educativo original del proyecto, no una garantía de que todos los municipios de Bolivia o Guatemala utilicen el mismo sistema. Confirmar aceptación de residuos con cada punto local.",
+    "Se sustituyeron descripciones con cifras ambientales sin fuente y la recomendación de guardar pilas en botellas por textos prudentes de identificación y consulta local. Las descripciones originales permanecen en el archivo fuente de Drive enlazado.",
+    "En Guatemala el texto original mezcla latas con envases multicapa, mientras que el juego clasifica las latas en negro y los envases multicapa en naranja. La versión web sigue el mapa visual del juego y distingue ambos grupos; revisar esta decisión con el equipo educativo.",
+    "La categoría orgánica incluye imágenes de carne y pescado. Eso no significa que sean aptos para compostaje doméstico; la ficha lo aclara.",
+    "La bombilla de Bolivia y los residuos sanitarios precisan una revisión de las reglas locales de disposición. Los colores educativos no sustituyen instrucciones de manejo seguro.",
+    "Los nombres accesibles de los 72 objetos se asignaron mediante inspección visual de las imágenes originales. No se dedujo la identidad del objeto de su posición en listas de texto.",
+    "Se corrigió la opción ambigua «No, tienen la obligación» a «No, no tienen esa obligación», conservando las respuestas marcadas en el código original.",
+    "Las preguntas 2 y 3 tienen varias respuestas correctas. Debe permitirse selección múltiple y comprobar el conjunto completo, no una sola opción.",
+    "Los textos y vínculos institucionales provienen de la app original y no se han verificado como vigentes. Deben revisarse antes de publicar.",
+    "No se han recuperado noticias, ubicaciones o datos del servidor anterior. La playlist fue proporcionada por el usuario; no se han comprobado sus videos individuales.",
+    "Se corrigieron los ejemplos de gu-orange: se retiraron las latas que el original mezclaba con envases multicapa; las latas se muestran en Metales."
+  ]
+}
